@@ -20,7 +20,7 @@ These are the current/planned functions this library will support.
 
 - lowerCase
 - upperCase
-- camelCase
+- [camelCase](src/camel-case.js)
 - [capitalize](src/capitalize.js)
 - [uncapitalize](src/uncapitalize.js)
 - mixedCase
