@@ -22,7 +22,7 @@ These are the current/planned functions this library will support.
 - upperCase
 - camelCase
 - [capitalize](src/capitalize.js)
-- uncapitalize
+- [uncapitalize](src/uncapitalize.js)
 - mixedCase
 - snakeCase
 - spaceCase
