@@ -23,7 +23,7 @@ These are the current/planned functions this library will support.
 - [camelCase](src/camel-case.js)
 - [capitalize](src/capitalize.js)
 - [uncapitalize](src/uncapitalize.js)
-- pascalCase
+- [pascalCase](src/pascal-case.js)
 - [snakeCase](src/snake-case.js)
 - [spaceCase](src/space-case.js)
 
