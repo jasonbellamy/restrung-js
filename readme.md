@@ -33,7 +33,7 @@ These are the current/planned functions this library will support.
 - [isCamelCase](src/is-camel-case.js)
 - [isCapitalized](src/is-capitalized.js)
 - isMixedCase
-- isSnakeCase
+- [isSnakeCase](src/is-snake-case.js)
 - [isSpaceCase](src/is-space-case.js)
 
 ## Developing
