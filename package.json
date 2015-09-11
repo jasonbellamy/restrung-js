@@ -2,7 +2,7 @@
   "name": "restrung",
   "description": "Functional JavaScript string helpers built on top of Ramda.",
   "version": "0.0.0",
-  "homepage": "https://github.com/jasonbellamy/restrung",
+  "homepage": "https://github.com/restrung/restrung-js",
   "author": {
     "name": "Jason Bellamy",
     "email": "j@sonbellamy.com",
@@ -10,10 +10,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jasonbellamy/restrung.git"
+    "url": "https://github.com/restrung/restrung-js.git"
   },
   "bugs": {
-    "url": "https://github.com/jasonbellamy/restrung/issues"
+    "url": "https://github.com/restrung/restrung-js/issues"
   },
   "license": "MIT",
   "main": "dist/restrung",
