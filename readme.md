@@ -25,7 +25,7 @@ These are the current/planned functions this library will support.
 - [uncapitalize](src/uncapitalize.js)
 - mixedCase
 - snakeCase
-- spaceCase
+- [spaceCase](src/space-case.js)
 
 ### Type
 
