@@ -31,7 +31,7 @@ These are the current/planned functions this library will support.
 
 - isUpper
 - isCamelCase
-- isCapitalized
+- [isCapitalized](src/is-capitalized.js)
 - isMixedCase
 - isSnakeCase
 - isSpaceCase
