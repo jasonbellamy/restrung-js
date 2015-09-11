@@ -30,7 +30,7 @@ These are the current/planned functions this library will support.
 ### Type
 
 - isUpper
-- isCamelCase
+- [isCamelCase](src/is-camel-case.js)
 - [isCapitalized](src/is-capitalized.js)
 - isMixedCase
 - isSnakeCase
