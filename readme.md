@@ -12,6 +12,29 @@ This project in its current state exists solely as a learning exercise into func
 
 - Install with [NPM](https://www.npmjs.org/) - `npm install --save restrung`
 
+## API
+
+These are the current/planned functions this library will support.
+
+### String
+
+- lowerCase
+- upperCase
+- camelCase
+- capitalize
+- uncapitalize
+- mixedCase
+- snakeCase
+- spaceCase
+
+### Type
+
+- isUpper
+- isCamelCase
+- isCapitalized
+- isMixedCase
+- isSnakeCase
+- isSpaceCase
 
 ## Developing
 
