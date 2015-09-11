@@ -1,4 +1,4 @@
-# Restrung [![Build Status](https://travis-ci.org/jasonbellamy/restrung.svg)](https://travis-ci.org/jasonbellamy/restrung)
+# Restrung [![Build Status](https://travis-ci.org/restrung/restrung-js.svg)](https://travis-ci.org/restrung/restrung-js)
 
 > Functional JavaScript string helpers built on top of [Ramda](https://github.com/ramda/ramda)
 
@@ -38,7 +38,7 @@ These are the current/planned functions this library will support.
 
 ## Developing
 
-[restrung](https://github.com/jasonbellamy/restrung) is built using **ES6**. Run the following task to compile the `src/` into `dist/`.
+[restrung](https://github.com/restrung/restrung-js) is built using **ES6**. Run the following task to compile the `src/` into `dist/`.
 
 ```bash
 npm run build
