@@ -23,7 +23,7 @@ These are the current/planned functions this library will support.
 - [camelCase](src/camel-case.js)
 - [capitalize](src/capitalize.js)
 - [uncapitalize](src/uncapitalize.js)
-- mixedCase
+- pascalCase
 - [snakeCase](src/snake-case.js)
 - [spaceCase](src/space-case.js)
 
@@ -32,7 +32,7 @@ These are the current/planned functions this library will support.
 - isUpper
 - [isCamelCase](src/is-camel-case.js)
 - [isCapitalized](src/is-capitalized.js)
-- isMixedCase
+- isPascalCase
 - [isSnakeCase](src/is-snake-case.js)
 - [isSpaceCase](src/is-space-case.js)
 
