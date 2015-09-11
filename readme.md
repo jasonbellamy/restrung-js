@@ -1,4 +1,4 @@
-# Restrung
+# Restrung [![Build Status](https://travis-ci.org/jasonbellamy/restrung.svg)](https://travis-ci.org/jasonbellamy/restrung)
 
 > Functional JavaScript string helpers built on top of [Ramda](https://github.com/ramda/ramda)
 
