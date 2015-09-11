@@ -24,7 +24,7 @@
     "build": "babel -d dist src",
     "clean": "rm -rf dist && mkdir dist",
     "watch": "babel -w -d dist src",
-    "test": "mocha --compilers js:babel/register",
+    "test": "mocha --compilers js:babel/register --recursive",
     "preversion": "npm run clean && npm run build",
     "postpublish": "git push && git push --tag"
   },
