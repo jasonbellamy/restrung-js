@@ -28,6 +28,7 @@ These are the current/planned functions this library will support.
 - [spaceCase](src/space-case.js)
 - [swapCase](src/swap-case.js)
 - [truncate](src/truncate.js)
+- [surround](src/surround.js)
 
 ### Type
 
