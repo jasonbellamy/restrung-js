@@ -29,7 +29,7 @@ These are the current/planned functions this library will support.
 
 ### Type
 
-- isUpper
+- [isUpperCase](src/is-upper-case.js)
 - [isCamelCase](src/is-camel-case.js)
 - [isCapitalized](src/is-capitalized.js)
 - [isPascalCase](src/is-pascal-case.js)
