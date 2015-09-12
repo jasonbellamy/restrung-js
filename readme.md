@@ -26,6 +26,7 @@ These are the current/planned functions this library will support.
 - [pascalCase](src/pascal-case.js)
 - [snakeCase](src/snake-case.js)
 - [spaceCase](src/space-case.js)
+- [swapCase](src/swap-case.js)
 
 ### Type
 
