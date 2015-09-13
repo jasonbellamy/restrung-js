@@ -28,6 +28,7 @@ These are the current/planned functions this library will support.
 - [uncapitalize](src/uncapitalize.js)
 - [truncate](src/truncate.js)
 - [surround](src/surround.js)
+- [trim](src/trim.js)
 
 ### Type
 
