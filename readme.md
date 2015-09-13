@@ -29,6 +29,7 @@ These are the current/planned functions this library will support.
 - [truncate](src/truncate.js)
 - [surround](src/surround.js)
 - [trim](src/trim.js)
+- [rtrim](src/rtrim.js)
 
 ### Type
 
