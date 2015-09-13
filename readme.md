@@ -31,6 +31,7 @@ These are the current/planned functions this library will support.
 - [ltrim](src/ltrim.js)
 - [trim](src/trim.js)
 - [rtrim](src/rtrim.js)
+- [clean](src/clean.js)
 
 ### Type
 
