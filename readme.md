@@ -15,7 +15,7 @@ This project in its current state exists solely as a learning exercise into func
 
 ## API
 
-These are the current this library supports.
+These are the current functions this library supports.
 
 ### String
 
