@@ -1,6 +1,6 @@
-# Restrung [![Build Status](https://travis-ci.org/restrung/restrung-js.svg)](https://travis-ci.org/restrung/restrung-js)
+# Restrung-js [![Build Status](https://travis-ci.org/restrung/restrung-js.svg)](https://travis-ci.org/restrung/restrung-js)
 
-> Functional JavaScript string helpers built on top of [Ramda](https://github.com/ramda/ramda)
+> JavaScript string helpers built with functional composition on top of [Ramda](https://github.com/ramda/ramda)
 
 
 ## Overview
@@ -15,7 +15,7 @@ This project in its current state exists solely as a learning exercise into func
 
 ## API
 
-These are the current/planned functions this library will support.
+These are the current this library supports.
 
 ### String
 
