@@ -1,16 +1,20 @@
-// a -> a
-const curry = (fn) => {
+// (* -> a) -> (* -> a)
+const curry = (fn, ...largs) => {
   const arity = fn.length;
 
-  return function(...args) {
-    if (arity === args.length) {
-      return fn.apply(this, args);
+  const accumulator = (...rargs) => {
+    if (largs.length) {
+      rargs = largs.concat(rargs);
     }
 
-    return function (...more) {
-      return fn.apply(this, args.concat(more));
+    if (rargs.length >= arity) {
+      return fn.apply(fn, rargs);
     }
+
+    return curry.apply(fn, [fn].concat(rargs));
   };
+
+  return (largs.length >= arity) ? accumulator() : accumulator;
 };
 
 export default curry;
