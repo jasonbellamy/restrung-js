@@ -1,14 +1,10 @@
 const compose = (...functions) => {
-
   return (...initial) => {
-    let count  = functions.length - 1;
-    let result = functions[count].apply(functions[count], initial)
+    let count = functions.length;
 
-    while (count--) {
-      result = functions[count].call(functions[count], result);
-    }
-
-    return result;
+    return (function accum(arg) {
+      return count ? (count--, accum(functions[count].call(functions[count], arg))) : arg;
+    }).apply(functions[count - 1], initial);
   };
 };
 

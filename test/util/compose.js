@@ -2,6 +2,12 @@ import {assert} from 'chai';
 import compose from '../../src/util/compose.js';
 
 describe('#compose', () => {
+  it('should return a function', () => {
+    const addOne   = (a) => a + 1;
+    const addTwo   = (a) => a + 2;
+    assert.isFunction(compose(addOne, addTwo));
+  });
+
   it('should combine the result of multiple functions', () => {
     const addOne   = (a) => a + 1;
     const addTwo   = (a) => a + 2;
