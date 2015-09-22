@@ -1,10 +1,14 @@
 import R from 'ramda';
+import curry from './curry.js';
+import compose from './compose.js';
+import head from './head.js';
+import tail from './tail.js';
 
 // (a -> a) -> a
-const transformHead = R.curry((f, s) => {
+const transformHead = curry((f, s) => {
   return R.concat(
-    R.compose(f, R.head)(s),
-    R.tail(s)
+    compose(f, head)(s),
+    tail(s)
   );
 });
 
