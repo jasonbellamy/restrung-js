@@ -1,8 +1,9 @@
 import R from 'ramda';
+import compose from './util/compose.js';
 import uncapitalize from './uncapitalize.js';
 import pascalCase from './pascal-case.js';
 
 // a -> a
-const camelCase = R.compose(uncapitalize, pascalCase);
+const camelCase = compose(uncapitalize, pascalCase);
 
 export default camelCase;
