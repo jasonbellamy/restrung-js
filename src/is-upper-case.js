@@ -1,6 +1,7 @@
 import R from 'ramda';
+import equals from './util/equals.js';
 
 // a -> Boolean
-const isUpperCase = (s) => R.equals(s, R.toUpper(s));
+const isUpperCase = (s) => equals(s, R.toUpper(s));
 
 export default isUpperCase;
