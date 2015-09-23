@@ -1,7 +1,8 @@
 import R from 'ramda';
 import transformHead from './util/transform-head.js';
+import upperCase from './util/upper-case.js';
 
 // a -> a
-const capitalize = transformHead(R.toUpper);
+const capitalize = transformHead(upperCase);
 
 export default capitalize;
