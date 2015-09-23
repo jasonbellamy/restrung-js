@@ -1,4 +1,3 @@
-import R from 'ramda';
 import transformHead from './util/transform-head.js';
 import upperCase from './util/upper-case.js';
 

@@ -1,4 +1,3 @@
-import R from 'ramda';
 import compose from './util/compose.js';
 import uncapitalize from './uncapitalize.js';
 import pascalCase from './pascal-case.js';
