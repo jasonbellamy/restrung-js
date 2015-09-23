@@ -1,6 +1,6 @@
-import R from 'ramda';
 import compose from './util/compose.js';
 import join from './util/join.js';
+import split from './util/split.js';
 import spaceCase from './space-case.js';
 import uncapitalize from './uncapitalize.js';
 
@@ -8,7 +8,7 @@ import uncapitalize from './uncapitalize.js';
 const snakeCase = compose(
   uncapitalize,
   join('_'),
-  R.split(' '),
+  split(' '),
   spaceCase
 );
 
