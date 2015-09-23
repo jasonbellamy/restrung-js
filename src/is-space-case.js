@@ -1,4 +1,3 @@
-import R from 'ramda';
 import equals from './util/equals.js';
 import spaceCase from './space-case.js';
 
