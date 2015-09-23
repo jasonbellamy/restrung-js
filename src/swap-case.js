@@ -1,6 +1,7 @@
 import R from 'ramda';
 import compose from './util/compose.js';
 import join from './util/join.js';
+import not from './util/not.js';
 import upperCase from './util/upper-case.js';
 import lowerCase from './util/lower-case.js';
 import isUpperCase from '../src/is-upper-case.js';
@@ -11,7 +12,7 @@ const swapCase = compose(
   R.map(
     R.either(
       R.both(isUpperCase, lowerCase),
-      R.both(compose(R.not, isUpperCase), upperCase)
+      R.both(compose(not, isUpperCase), upperCase)
     )
   )
 );
