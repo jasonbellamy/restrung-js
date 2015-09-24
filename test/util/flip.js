@@ -1,6 +1,5 @@
 import {assert} from 'chai';
 import flip from '../../src/util/flip.js';
-import curry from '../../src/util/curry.js';
 
 describe('#flip', () => {
   it('should reverse the first 2 arguments of a function', () => {
