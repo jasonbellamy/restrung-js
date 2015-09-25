@@ -1,6 +1,6 @@
 import R from 'ramda';
 
 // a -> a
-const trim = R.trim; // proxied to maintain consistency in the API.
+const trim = (a) => a.trim();
 
 export default trim;
