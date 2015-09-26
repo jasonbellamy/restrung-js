@@ -1,11 +1,12 @@
-import R from 'ramda';
 import compose from './util/compose.js';
+import trim from './trim.js';
+import replace from './util/replace.js';
 
 // a -> a
 const spaceCase = compose(
-  R.trim,
-  R.replace(/([a-z])([A-Z])/g, '$1 $2'),
-  R.replace(/(\.|-|_)/g, ' ')
+  trim,
+  replace(/([a-z])([A-Z])/g, '$1 $2'),
+  replace(/(\.|-|_)/g, ' ')
 );
 
 export default spaceCase;
