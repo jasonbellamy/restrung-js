@@ -1,6 +1,6 @@
-import R from 'ramda';
+import replace from './util/replace.js';
 
 // a -> a
-const rtrim = R.replace(/\s+$/, '');
+const rtrim = replace(/\s+$/, '');
 
 export default rtrim;
