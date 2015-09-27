@@ -1,11 +1,11 @@
 # Restrung-js [![Build Status](https://travis-ci.org/restrung/restrung-js.svg)](https://travis-ci.org/restrung/restrung-js)
 
-> JavaScript string helpers built with functional composition on top of [Ramda](https://github.com/ramda/ramda)
+> JavaScript string helpers built with functional composition.
 
 
 ## Overview
 
-This project in its current state exists solely as a learning exercise into functional programming.
+This project exists solely as a learning exercise into functional programming.
 
 
 ## Getting Started
