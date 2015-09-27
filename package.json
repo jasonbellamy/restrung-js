@@ -1,6 +1,6 @@
 {
   "name": "restrung",
-  "description": "Functional JavaScript string helpers built on top of Ramda.",
+  "description": "JavaScript string helpers built with functional composition.",
   "version": "0.0.0",
   "homepage": "https://github.com/restrung/restrung-js",
   "author": {
