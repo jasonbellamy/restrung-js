@@ -2,8 +2,7 @@ import {assert} from 'chai';
 import splitEvery from '../../src/util/split-every.js';
 
 describe('#splitEvery', () => {
-  it('should split a collection into slices of the specified length', function() {
-    assert.deepEqual(splitEvery(3, [1, 2, 3, 4, 5 ,6]), [[1, 2, 3], [4, 5, 6]]);
+  it('should split a collection into slices of the specified length', () => {
     assert.deepEqual(splitEvery(1, [1, 2, 3, 4]), [[1], [2], [3], [4]]);
     assert.deepEqual(splitEvery(2, [1, 2, 3, 4]), [[1, 2], [3, 4]]);
     assert.deepEqual(splitEvery(3, [1, 2, 3, 4]), [[1, 2, 3], [4]]);
