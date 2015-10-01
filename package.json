@@ -1,7 +1,7 @@
 {
-  "name": "restrung",
+  "name": "restrung-js",
   "description": "JavaScript string helpers built with functional composition.",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "homepage": "https://github.com/restrung/restrung-js",
   "author": {
     "name": "Jason Bellamy",
