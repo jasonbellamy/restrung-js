@@ -5,12 +5,12 @@
 
 ## Overview
 
-This project exists solely as a learning exercise into functional programming.
+This project exists solely as a learning exercise into functional programming in JavaScript.
 
 
 ## Getting Started
 
-- Install with [NPM](https://www.npmjs.org/) - `npm install --save restrung`
+- Install with [NPM](https://www.npmjs.org/) - `npm install --save restrung-js`
 
 
 ## API
