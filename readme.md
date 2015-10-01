@@ -8,14 +8,9 @@
 This project exists solely as a learning exercise into functional programming in JavaScript.
 
 
-## Getting Started
-
-- Install with [NPM](https://www.npmjs.org/) - `npm install --save restrung-js`
-
-
 ## API
 
-These are the current functions this library supports.
+These are the current public functions this library supports.
 
 ### String
 
