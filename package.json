@@ -16,7 +16,6 @@
     "url": "https://github.com/restrung/restrung-js/issues"
   },
   "license": "MIT",
-  "main": "dist/restrung",
   "engines": {
     "node": ">= 0.12.0"
   },
@@ -35,11 +34,7 @@
     "mocha": "^2.3.0"
   },
   "keywords": [
-    "ramda",
     "string",
     "utils"
-  ],
-  "dependencies": {
-    "ramda": "^0.17.1"
-  }
+  ]
 }
