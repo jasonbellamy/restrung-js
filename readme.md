@@ -1,4 +1,4 @@
-# Restrung-js [![Build Status](https://travis-ci.org/restrung/restrung-js.svg)](https://travis-ci.org/restrung/restrung-js)
+# Restrung-js [![Build Status](https://travis-ci.org/jasonbellamy/restrung-js.svg)](https://travis-ci.org/jasonbellamy/restrung-js)
 
 > JavaScript string helpers built with functional composition.
 
